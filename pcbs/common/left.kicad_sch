@@ -6398,6 +6398,12 @@
 		(uuid "1b8af880-c22d-4ca8-b62c-d989716e7d90")
 	)
 	(junction
+		(at 307.34 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b8dbd62-73ca-4b3e-b9c6-5c64b40b98ec")
+	)
+	(junction
 		(at 81.28 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6414,6 +6420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27463618-7720-4a60-8bc3-61bcf3652640")
+	)
+	(junction
+		(at 284.48 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b813cb5-8eeb-42e7-a0cc-fe9d9e8d1a15")
 	)
 	(junction
 		(at 246.38 227.33)
@@ -6638,6 +6650,12 @@
 		(uuid "bf49413a-7c28-4d19-a52c-fc021690102a")
 	)
 	(junction
+		(at 292.1 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf5b6237-7a6e-4aca-a567-53db7395aa87")
+	)
+	(junction
 		(at 231.14 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6654,6 +6672,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4e6859c-8914-42a7-b0cc-4f402cdb3424")
+	)
+	(junction
+		(at 307.34 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c90693ab-6fb4-441a-b895-787cbaa057ea")
 	)
 	(junction
 		(at 96.52 110.49)
@@ -6754,6 +6778,10 @@
 	(no_connect
 		(at 50.8 60.96)
 		(uuid "c54186f5-d9f5-4071-8ea2-4e2d8763c81b")
+	)
+	(no_connect
+		(at 299.72 252.73)
+		(uuid "cbbda703-147e-4a19-bd27-7b7ec1d6a382")
 	)
 	(no_connect
 		(at 284.48 234.95)
@@ -6875,6 +6903,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 138.43) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170ea154-8885-4a62-ba26-3df9bc83116f")
+	)
+	(wire
+		(pts
 			(xy 81.28 110.49) (xy 81.28 114.3)
 		)
 		(stroke
@@ -6902,6 +6940,16 @@
 			(type default)
 		)
 		(uuid "1a8dd641-813c-448b-a4e9-25fa0aeeadeb")
+	)
+	(wire
+		(pts
+			(xy 299.72 234.95) (xy 299.72 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae66cc0-6ca6-489f-b646-7455d605793c")
 	)
 	(wire
 		(pts
@@ -7025,6 +7073,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 227.33) (xy 292.1 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30339e31-66aa-4bce-aab2-25774342eb04")
+	)
+	(wire
+		(pts
 			(xy 254 270.51) (xy 238.76 270.51)
 		)
 		(stroke
@@ -7142,6 +7200,16 @@
 			(type default)
 		)
 		(uuid "4d30e28f-69ec-47eb-a39f-612874fb23b8")
+	)
+	(wire
+		(pts
+			(xy 299.72 193.04) (xy 299.72 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51cda414-69ed-4fae-9cc8-8427f7eae8ff")
 	)
 	(wire
 		(pts
@@ -7272,6 +7340,16 @@
 			(type default)
 		)
 		(uuid "64506548-f749-4e53-80b7-92ff5a869a2a")
+	)
+	(wire
+		(pts
+			(xy 111.76 140.97) (xy 120.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6480c05f-72c5-471e-86b4-6849ef399d4c")
 	)
 	(wire
 		(pts
@@ -7555,6 +7633,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 227.33) (xy 307.34 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9041c85c-1f62-473a-a6aa-a76af9b76823")
+	)
+	(wire
+		(pts
 			(xy 50.8 187.96) (xy 45.72 187.96)
 		)
 		(stroke
@@ -7602,6 +7690,16 @@
 			(type default)
 		)
 		(uuid "9cb4b0d3-094e-40a4-b588-24fdec1e711a")
+	)
+	(wire
+		(pts
+			(xy 307.34 208.28) (xy 307.34 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8bf0d2-30b9-454e-ab87-1e0765e78dba")
 	)
 	(wire
 		(pts
@@ -7795,6 +7893,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 193.04) (xy 299.72 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcbe318-3b1d-41b1-84c7-b6c178cfee9e")
+	)
+	(wire
+		(pts
 			(xy 50.8 179.07) (xy 50.8 187.96)
 		)
 		(stroke
@@ -7965,6 +8073,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 262.89) (xy 307.34 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8495556-5261-4825-a832-4d40d6f9ec55")
+	)
+	(wire
+		(pts
 			(xy 48.26 176.53) (xy 48.26 173.99)
 		)
 		(stroke
@@ -7972,6 +8090,16 @@
 			(type default)
 		)
 		(uuid "e94e78c9-561f-41c7-be59-547916bd34f0")
+	)
+	(wire
+		(pts
+			(xy 299.72 215.9) (xy 299.72 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe32e53-cacd-4ea0-9d53-6a3005038c51")
 	)
 	(wire
 		(pts
@@ -8042,6 +8170,26 @@
 			(type default)
 		)
 		(uuid "f52b5883-338c-4c70-a0b3-74c7e39ff606")
+	)
+	(wire
+		(pts
+			(xy 111.76 148.59) (xy 120.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f890dc1e-7fae-4556-b556-671b9591481c")
+	)
+	(wire
+		(pts
+			(xy 307.34 262.89) (xy 307.34 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91d5293-e872-4b09-8305-502c4a375174")
 	)
 	(wire
 		(pts
@@ -8333,6 +8481,16 @@
 		)
 		(uuid "48415496-9887-4fff-b648-b58a1b58e0e2")
 	)
+	(label "KEY22"
+		(at 185.42 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49ca8d0c-8ab0-48bc-800a-4aa42fb42f11")
+	)
 	(label "KEY1"
 		(at 111.76 156.21 0)
 		(effects
@@ -8392,6 +8550,16 @@
 			(justify left bottom)
 		)
 		(uuid "5cdb7f2b-d59e-4955-9078-ac41496830ba")
+	)
+	(label "KEY23"
+		(at 198.12 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62b2523e-b7a6-4266-be75-097623c0f0f7")
 	)
 	(label "KEYEX2"
 		(at 111.76 148.59 0)
@@ -8743,6 +8911,16 @@
 		)
 		(uuid "b13bbc0e-019b-4a85-8f8c-277d34ae87b8")
 	)
+	(label "KEY24"
+		(at 120.65 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b590fc22-262b-4760-8f2b-25594f47f5bf")
+	)
 	(label "KEY13"
 		(at 111.76 186.69 0)
 		(effects
@@ -8863,6 +9041,16 @@
 		)
 		(uuid "cabf1cd5-ec5f-4366-9cea-dd8e682dcc42")
 	)
+	(label "KEY23"
+		(at 120.65 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd316164-74fa-43f0-909f-0475b075ab2c")
+	)
 	(label "D-"
 		(at 143.51 40.64 180)
 		(effects
@@ -8923,6 +9111,16 @@
 		)
 		(uuid "da16ba43-e546-4d54-947a-889c860669ee")
 	)
+	(label "KEY24"
+		(at 210.82 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc484b21-0d99-48c0-a036-512ebf3b779c")
+	)
 	(label "D-"
 		(at 50.8 45.72 0)
 		(effects
@@ -8962,6 +9160,16 @@
 			(justify left bottom)
 		)
 		(uuid "e74ccb8b-bc7d-4bfe-ad29-a2a0f5611284")
+	)
+	(label "KEY22"
+		(at 120.65 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec93aba5-6547-43b3-838e-2e362afcba73")
 	)
 	(label "KEY16"
 		(at 198.12 138.43 90)
@@ -10041,6 +10249,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 215.9 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11f15bef-af99-4ceb-8c92-9c9213e7343c")
+		(property "Reference" "SW24"
+			(at 215.9 147.574 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 215.9 149.606 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+			(at 215.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9395e827-9062-478f-93cd-0ed3397aba32")
+		)
+		(pin "2"
+			(uuid "6c3d0c2f-79d6-46dd-9a8c-210f52990175")
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 67.945 45.72 0)
 		(unit 1)
@@ -10363,6 +10637,72 @@
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 203.2 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20ff727a-a31d-42c8-8bf4-3aaff4cf2164")
+		(property "Reference" "SW23"
+			(at 203.2 147.574 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 203.2 149.606 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+			(at 203.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "595844b1-3fba-4fd0-bf47-c5071c295f2b")
+		)
+		(pin "2"
+			(uuid "4f953817-8ef5-4808-b5cd-f547c51df2bd")
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -12818,6 +13158,81 @@
 		)
 	)
 	(symbol
+		(lib_id "kbd_local:YS-SK6812MINI-E")
+		(at 299.72 227.33 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55b95412-ad6c-4b08-9f07-dd3083dab3dc")
+		(property "Reference" "LED23"
+			(at 293.878 221.742 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YS-SK6812MINI-E"
+			(at 293.878 228.092 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+			(at 306.07 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9a9f288-3cdb-44ba-9397-4aac2c6fc5ef")
+		)
+		(pin "2"
+			(uuid "7aebf2bc-e46a-409a-acdc-2d6aee4ee1a6")
+		)
+		(pin "3"
+			(uuid "06b80585-7df5-4c38-884d-e676a25f58c7")
+		)
+		(pin "4"
+			(uuid "594eaf49-9f4d-4830-8a15-4cc8606357b5")
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 92.71 60.96 0)
 		(unit 1)
@@ -12950,6 +13365,71 @@
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b56339e-10ab-4671-acde-a72e6cb0277f")
+		(property "Reference" "#PWR057"
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28e860a3-93b1-4bb9-b1b0-6a5f546a2839")
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -13619,6 +14099,81 @@
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kbd_local:YS-SK6812MINI-E")
+		(at 299.72 208.28 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fef8a63-26e2-4ba0-af4d-088b85d9a7cd")
+		(property "Reference" "LED22"
+			(at 293.878 202.692 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YS-SK6812MINI-E"
+			(at 293.878 209.042 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+			(at 306.07 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0ca24ed-80e6-4a38-9fa7-9cbc00dd7949")
+		)
+		(pin "2"
+			(uuid "f191db47-7de5-4162-9788-a79aed3e5abb")
+		)
+		(pin "3"
+			(uuid "eed6c3f7-2b8f-4e62-bf84-f47e13481d7a")
+		)
+		(pin "4"
+			(uuid "7a286073-ddbb-4b1e-8c13-d5652492eb9a")
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "LED22")
 					(unit 1)
 				)
 			)
@@ -16541,6 +17096,81 @@
 		)
 	)
 	(symbol
+		(lib_id "kbd_local:YS-SK6812MINI-E")
+		(at 299.72 245.11 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b15a98c0-ae5f-4514-b023-2fa45dd88a68")
+		(property "Reference" "LED24"
+			(at 293.878 239.522 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YS-SK6812MINI-E"
+			(at 293.878 245.872 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+			(at 306.07 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "febec535-23c9-4c12-afcc-0d04f0597ad4")
+		)
+		(pin "2"
+			(uuid "3bd33a39-1c89-436b-a846-110e69d40e10")
+		)
+		(pin "3"
+			(uuid "e12d8ea9-6167-48ee-940f-f4b7c3a2e6e7")
+		)
+		(pin "4"
+			(uuid "59f0fd58-e040-4085-9139-f0407258903c")
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 277.495 39.37 270)
 		(unit 1)
@@ -17892,6 +18522,72 @@
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 190.5 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d357cafa-db43-4183-908d-0ed6b8ee67c6")
+		(property "Reference" "SW22"
+			(at 190.5 147.574 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 190.5 149.606 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc716380-0c75-424f-8ac8-c091066dea0c")
+		)
+		(pin "2"
+			(uuid "309f10b3-3704-4e67-83d1-6a230790bcf1")
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -19417,6 +20113,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 220.98 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f80f73d4-b9d7-468f-82ee-160ca3a49ca1")
+		(property "Reference" "#PWR080"
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6548bb87-f529-4ed2-b433-60658b2a5e3b")
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 17.78 257.81 0)
 		(unit 1)
@@ -19474,6 +20235,71 @@
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa18ea70-f386-4fd3-bcf2-ca7a1ab4b04a")
+		(property "Reference" "#PWR074"
+			(at 208.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ddab989-efd7-461e-a233-cc7a34062883")
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
