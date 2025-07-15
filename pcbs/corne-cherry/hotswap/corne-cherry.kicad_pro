@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.2,
+        "board_outline_line_width": 0.1,
         "copper_line_width": 0.15,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -498,7 +498,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2032,
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6
