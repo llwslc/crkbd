@@ -38,3 +38,6 @@ gerber/
 # Order files
 order/
 .idea/
+
+# JLC
+production/
