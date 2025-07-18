@@ -516,7 +516,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "corne.net",
-      "plot": "",
+      "plot": "order/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../../Desktop/corne-pcb.STEP",
