@@ -1,7 +1,7 @@
 #!/bin/bash
 # 初始化脚本：浅拷贝 vial-qmk 仓库并记录 commit id，支持指定 commit
 
-REPO_URL="git://github.com/vial-kb/vial-qmk.git"
+REPO_URL="git@github.com:vial-kb/vial-qmk.git"
 CLONE_DIR="vial-qmk"
 COMMIT_FILE="vial-qmk-commit.txt"
 
