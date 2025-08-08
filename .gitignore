@@ -41,3 +41,6 @@ order/
 
 # JLC
 production/
+
+# firmware
+vial-qmk/
