@@ -1,42 +1,38 @@
 #!/bin/bash
-# 初始化脚本：浅拷贝 vial-qmk 仓库并记录 commit id，支持指定 commit
+# 下载并解压指定 commit 的 vial-qmk，并建立软链接
 
-REPO_URL="git@github.com:vial-kb/vial-qmk.git"
+set -e
+
+
+COMMIT_ID="0f7eae3a556831d1f639d89b7a281ebf5c5a136b"
+ZIP_URL="https://github.com/vial-kb/vial-qmk/archive/$COMMIT_ID.zip"
+ZIP_FILE="vial-qmk.zip"
 CLONE_DIR="vial-qmk"
-COMMIT_FILE="vial-qmk-commit.txt"
+TMP_LINK_TARGET="../../tmp"
+KEYBOARDS_DIR="$CLONE_DIR/keyboards"
+LINK_NAME="$KEYBOARDS_DIR/tmp"
 
 # 进入脚本所在目录
 cd "$(dirname "$0")"
 
-# 如果已存在则删除旧目录
+# 清理旧目录
 if [ -d "$CLONE_DIR" ]; then
     echo "Removing existing $CLONE_DIR directory..."
     rm -rf "$CLONE_DIR"
 fi
 
-# 如果有 commit id 文件，则按该 commit 克隆
-if [ -f "$COMMIT_FILE" ]; then
-    COMMIT_ID=$(cat "$COMMIT_FILE")
-    echo "Found commit id: $COMMIT_ID, cloning that commit..."
-    git clone "$REPO_URL" "$CLONE_DIR"
-    if [ $? -ne 0 ]; then
-        echo "Clone failed!"
-        exit 1
-    fi
-    cd "$CLONE_DIR"
-    git checkout "$COMMIT_ID"
-    cd ..
-    echo "Checked out commit: $COMMIT_ID (from $COMMIT_FILE)"
-else
-    echo "No commit id file, cloning latest (depth=1)..."
-    git clone --depth 1 "$REPO_URL" "$CLONE_DIR"
-    if [ $? -ne 0 ]; then
-        echo "Clone failed!"
-        exit 1
-    fi
-    cd "$CLONE_DIR"
-    COMMIT_ID=$(git rev-parse HEAD)
-    cd ..
-    echo "$COMMIT_ID" > "$COMMIT_FILE"
-    echo "Cloned commit: $COMMIT_ID (saved to $COMMIT_FILE)"
-fi
+# 下载 zip
+echo "Downloading $ZIP_URL ..."
+curl -L -o "$ZIP_FILE" "$ZIP_URL"
+
+# 解压
+unzip -q "$ZIP_FILE"
+rm "$ZIP_FILE"
+
+# 解压后目录名
+mv "vial-qmk-$COMMIT_ID" "$CLONE_DIR"
+
+# 建立软链接
+mkdir -p "$KEYBOARDS_DIR"
+ln -sfn "$TMP_LINK_TARGET" "$LINK_NAME"
+echo "Created symlink: $LINK_NAME -> $TMP_LINK_TARGET"
