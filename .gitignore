@@ -43,4 +43,4 @@ order/
 production/
 
 # firmware
-vial-qmk/
+firmware/vial-qmk*/
