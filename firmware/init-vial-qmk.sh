@@ -1,12 +1,9 @@
-#!/bin/bash
-# 下载并解压指定 commit 的 vial-qmk，并建立软链接
 
+#!/bin/bash
+# 克隆 vial-qmk 仓库（depth=1），并初始化 submodule
 set -e
 
-
-COMMIT_ID="0f7eae3a556831d1f639d89b7a281ebf5c5a136b"
-ZIP_URL="https://github.com/vial-kb/vial-qmk/archive/$COMMIT_ID.zip"
-ZIP_FILE="vial-qmk.zip"
+REPO_URL="git@github.com:vial-kb/vial-qmk.git"
 CLONE_DIR="vial-qmk"
 
 # 进入脚本所在目录
@@ -18,13 +15,12 @@ if [ -d "$CLONE_DIR" ]; then
     rm -rf "$CLONE_DIR"
 fi
 
-# 下载 zip
-echo "Downloading $ZIP_URL ..."
-curl -L -o "$ZIP_FILE" "$ZIP_URL"
+echo "Cloning $REPO_URL (depth=1)..."
+git clone --depth 1 "$REPO_URL" "$CLONE_DIR"
 
-# 解压
-unzip -q "$ZIP_FILE"
-rm "$ZIP_FILE"
+cd "$CLONE_DIR"
+echo "Initializing submodules ..."
+git submodule update --init --recursive --depth 1
 
-# 重命名解压目录
-mv "vial-qmk-$COMMIT_ID" "$CLONE_DIR"
+echo "Setting up QMK environment..."
+qmk setup
