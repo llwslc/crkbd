@@ -10,6 +10,7 @@ VIAL_QMK_DIR="./vial-qmk"
 KEYBOARD_DIR="./endless"
 KEYBOARDS_DIR="$VIAL_QMK_DIR/keyboards"
 TARGET_DIR="$KEYBOARDS_DIR/endless"
+BUILD_DIR=".build"
 
 if [ -d "$KEYBOARDS_DIR" ]; then
     echo "Removing all in $KEYBOARDS_DIR ..."
@@ -25,7 +26,10 @@ cd "$VIAL_QMK_DIR"
 
 # 清理 build 目录
 echo "Cleaning up old build directory..."
-rm -rf .build
+rm -rf "$BUILD_DIR"
 
 # 编译
-qmk compile -kb endless/rev1/standard -km vial
+qmk compile -kb endless/rev1 -km vial
+
+# 打开 build 目录
+open "$BUILD_DIR"
