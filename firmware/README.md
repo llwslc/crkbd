@@ -17,6 +17,8 @@ https://github.com/qmk/qmk_firmware/tree/master/quantum/rgb_matrix/animations
 
 ## LOGO
 
+https://joric.github.io/qle/
+
 https://rickkas7.github.io/DisplayGenerator/index.html
 
 https://javl.github.io/image2cpp/
