@@ -11,9 +11,13 @@ brew install arm-none-eabi-gcc
 
 https://www.keyboard-layout-editor.com/#/
 
+## LAYOUT
+
+https://vial.rocks/
+
 ## 动画效果
 
-https://github.com/qmk/qmk_firmware/tree/master/quantum/rgb_matrix/animations
+https://github.com/qmk/qmk_firmware/blob/master/quantum/rgb_matrix/animations/rgb_matrix_effects.inc
 
 ## LOGO
 
