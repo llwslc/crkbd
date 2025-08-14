@@ -35,11 +35,11 @@ LALT_T(KC_GRAVE),KC_MINUS,KC_EQUAL,       KC_LGUI, TL_LOWR,  KC_SPC,     KC_ENT,
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
        KC_ESC,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                         KC_6,    KC_7,    KC_8,    KC_9,    KC_0, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX, KC_WH_D, KC_BTN3, KC_BTN1,                      KC_BTN1, KC_BTN3, KC_MS_U, XXXXXXX, XXXXXXX, XXXXXXX,
+      KC_LCTL, XXXXXXX, XXXXXXX, KC_WH_D, KC_BTN3, KC_BTN1,                      KC_BTN1, KC_BTN3, KC_MS_U, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, KC_WH_R, KC_WH_U, KC_WH_L, KC_BTN2,                      KC_BTN2, KC_MS_L, KC_MS_D, KC_MS_R, XXXXXXX, XXXXXXX,
+      KC_LSFT, XXXXXXX, KC_WH_R, KC_WH_U, KC_WH_L, KC_BTN2,                      KC_BTN2, KC_MS_L, KC_MS_D, KC_MS_R, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX,          XXXXXXX, _______,  KC_SPC,     KC_ENT, _______, XXXXXXX,          KC_VOLU, KC_VOLD, XXXXXXX
+      KC_LALT, XXXXXXX, XXXXXXX,          XXXXXXX, _______,  KC_SPC,     KC_ENT, _______, XXXXXXX,          KC_VOLU, KC_VOLD, XXXXXXX
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
   ),
 
@@ -59,9 +59,9 @@ LALT_T(KC_GRAVE),KC_MINUS,KC_EQUAL,       KC_LGUI, TL_LOWR,  KC_SPC,     KC_ENT,
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
       QK_BOOT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_BOOT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      RGB_TOG, RGB_MOD, RGB_VAI, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      RGB_TOG, RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX,RGB_RMOD, RGB_VAD, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      XXXXXXX,RGB_RMOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX,          XXXXXXX, _______,  KC_SPC,     KC_ENT, _______, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
