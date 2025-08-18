@@ -27,7 +27,7 @@ LCTL_T(KC_TAB),   KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                     
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
 LSFT_T(KC_CAPS),  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT,   KC_UP,KC_SLASH,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-LALT_T(KC_GRAVE),KC_MINUS,KC_EQUAL,       KC_LGUI, TL_LOWR,  KC_SPC,     KC_ENT, TL_UPPR, KC_RSFT,          KC_LEFT, KC_DOWN, KC_RIGHT
+LALT_T(KC_GRAVE),KC_MINUS,KC_EQUAL,       KC_LGUI, KC_SPC,  TL_LOWR,    TL_UPPR,  KC_ENT, KC_RSFT,          KC_LEFT, KC_DOWN, KC_RIGHT
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
   ),
 
@@ -39,7 +39,7 @@ LALT_T(KC_GRAVE),KC_MINUS,KC_EQUAL,       KC_LGUI, TL_LOWR,  KC_SPC,     KC_ENT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, KC_WH_R, KC_WH_U, KC_WH_L, KC_BTN2,                      KC_BTN2, KC_MS_L, KC_MS_D, KC_MS_R, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-      KC_LALT, XXXXXXX, XXXXXXX,          XXXXXXX, _______,  KC_SPC,     KC_ENT, _______, XXXXXXX,          KC_VOLU, KC_VOLD, XXXXXXX
+      KC_LALT, XXXXXXX, XXXXXXX,          XXXXXXX,  KC_SPC, _______,    _______,  KC_ENT, XXXXXXX,          KC_VOLU, KC_VOLD, XXXXXXX
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
   ),
 
@@ -51,7 +51,7 @@ LALT_T(KC_GRAVE),KC_MINUS,KC_EQUAL,       KC_LGUI, TL_LOWR,  KC_SPC,     KC_ENT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE, KC_TILD,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-      XXXXXXX, KC_BRIU, KC_BRID,          XXXXXXX, _______,  KC_SPC,     KC_ENT, _______, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX
+      XXXXXXX, KC_BRIU, KC_BRID,          XXXXXXX,  KC_SPC, _______,    _______,  KC_ENT, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
   ),
 
@@ -63,7 +63,7 @@ LALT_T(KC_GRAVE),KC_MINUS,KC_EQUAL,       KC_LGUI, TL_LOWR,  KC_SPC,     KC_ENT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX,RGB_RMOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX,          XXXXXXX, _______,  KC_SPC,     KC_ENT, _______, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX
+      XXXXXXX, XXXXXXX, XXXXXXX,          XXXXXXX,  KC_SPC, _______,    _______,  KC_ENT, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
   )
 };
