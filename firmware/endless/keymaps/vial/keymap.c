@@ -39,7 +39,7 @@ LALT_T(KC_GRAVE),KC_MINUS,KC_EQUAL,       KC_LGUI, KC_SPC,  TL_LOWR,    TL_UPPR,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, XXXXXXX, KC_WH_R, KC_WH_U, KC_WH_L,                      KC_MS_L, KC_MS_D, KC_MS_R,  KC_DOT, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-      KC_LALT, XXXXXXX, XXXXXXX,          XXXXXXX,  KC_SPC, _______,    _______,  KC_ENT, KC_BTN3,          KC_VOLU, KC_VOLD, XXXXXXX
+      KC_LALT, XXXXXXX, XXXXXXX,          KC_BTN3,  KC_SPC, _______,    _______,  KC_ENT, KC_BTN3,          KC_VOLU, KC_VOLD, XXXXXXX
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
   ),
 
