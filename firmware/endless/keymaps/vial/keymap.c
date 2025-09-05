@@ -173,6 +173,7 @@ void oled_render_logo(void) {
 
 bool oled_task_user(void) {
     if (is_keyboard_master()) {
+        oled_on();
         if (show_logo) {
             oled_render_logo();
         } else {
