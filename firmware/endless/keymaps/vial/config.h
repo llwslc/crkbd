@@ -29,7 +29,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
-#define OLED_TIMEOUT 0
 #define USE_SERIAL_PD2
 
 #define OLED_FONT_H "keyboards/endless/lib/glcdfont.c"
