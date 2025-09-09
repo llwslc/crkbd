@@ -159,10 +159,10 @@ void oled_render_logo(void) {
 bool oled_task_user(void) {
     oled_on();
     if (is_keyboard_master()) {
+        oled_clear();
         if (show_logo) {
             oled_render_logo();
         } else {
-            oled_clear();
             oled_render_layer_state();
             oled_render_keylog();
             if (timer_elapsed32(last_key_time) > LOGO_TIMEOUT) {
