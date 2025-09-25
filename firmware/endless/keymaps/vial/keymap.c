@@ -18,6 +18,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 
+#define KC_CLEEP QK_CLEAR_EEPROM
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_split_4x6(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
@@ -39,7 +41,7 @@ LCTL_T(KC_TAB),   KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                     
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, KC_WH_R, KC_WH_D, KC_WH_L, XXXXXXX,                      XXXXXXX, KC_MS_L, KC_MS_D,  KC_MS_R, XXXXXXX, KC_DOT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-      KC_LALT, XXXXXXX, XXXXXXX,          XXXXXXX,  KC_SPC, _______,    _______,  KC_ENT, XXXXXXX,          KC_VOLD, KC_VOLU, XXXXXXX
+      KC_LALT, XXXXXXX, XXXXXXX,          TL_UPPR,  KC_SPC, _______,    _______,  KC_ENT, XXXXXXX,          KC_VOLD, KC_VOLU, XXXXXXX
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
   ),
 
@@ -51,7 +53,7 @@ LCTL_T(KC_TAB),   KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                     
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE, KC_TILD,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-      XXXXXXX, KC_BRID, KC_BRIU,          XXXXXXX,  KC_SPC, _______,    _______,  KC_ENT, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX
+      XXXXXXX, KC_BRID, KC_BRIU,          XXXXXXX,  KC_SPC, _______,    _______,  KC_ENT, TL_LOWR,          XXXXXXX, XXXXXXX, XXXXXXX
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
   ),
 
@@ -63,7 +65,7 @@ LCTL_T(KC_TAB),   KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                     
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX,RGB_RMOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX,          XXXXXXX,  KC_SPC, _______,    _______,  KC_ENT, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX
+     KC_CLEEP, XXXXXXX, XXXXXXX,          XXXXXXX,  KC_SPC, _______,    _______,  KC_ENT, XXXXXXX,          XXXXXXX, XXXXXXX, KC_CLEEP
   //|--------+--------+--------'        '--------------------------'  '--------------------------'        '--------+--------+--------|
   )
 };
